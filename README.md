@@ -11,6 +11,7 @@ Results presented in report.pdf can be reproduced by running the main.py file.
 
 In order to get the file running, you should have the following file in the same (sub)folder as the main.py file:
 	- user_movie_rating.npy
+This file can be requested by sending an e-mail to justinkraaijenbrink@outlook.com.
 
 Use the following command line: python main.py -d /very/long/path/to/user_movie_rating.npy -s seed -m js/cs/dcs
 Where seed should be an integer and one can choice to use js (Jaccard Similarity), cs (Cosine Similarity) or dcs (Discrete Cosine Similarity)
